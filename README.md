@@ -52,3 +52,37 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+## How to Run Locally
+To run the Astro project locally, follow these steps:
+
+### Prerequisites
+- Node.js (make sure it's installed)
+- npm (Node Package Manager, usually installed with Node.js)
+
+### Steps
+1. Clone the Project:
+Clone the project repository to your local machine using Git or download it as a ZIP file and extract it.
+
+2. Navigate to Project Directory:
+Open a terminal or command prompt and navigate to the root directory of the cloned/downloaded project using the cd command.
+
+2. Install Dependencies:
+Run the following command to install project dependencies:
+
+```sh
+npm install
+```
+
+4. Start the Development Server:
+After installing dependencies, start the local development server using:
+
+```sh
+npm run dev
+```
+
+5. Access the Local Server:
+Once the server is running, open your web browser and go to `http://localhost:4321` to view the running Astro application.
+
+Following these steps should get the Astro project running on your local machine.
